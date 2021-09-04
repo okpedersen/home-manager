@@ -90,6 +90,7 @@ in {
         example = 64;
         description = "Sets the size of the dock.";
       };
+      autohide = mkNullableEnableOption "automatic hiding of the dock";
       size-immutable = mkNullableEnableOption "locking of the dock size";
       expose-group-apps = mkNullableEnableOption
         "grouping of windows by application in Mission Control";
